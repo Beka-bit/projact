@@ -1,0 +1,380 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Хэдер */
+#header {
+    background-color: rgba(82, 39, 1, 0.394);
+    color: rgba(66, 28, 5, 0.672);
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    color: brown;
+    text-decoration: none;
+    outline: none;
+}
+
+/* Контейнерлер */
+#container, #container-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto 10px auto;
+}
+
+/* Кнопки */
+#header button {
+    background-color: rgba(118, 53, 18, 0.2);
+    color: rgb(66, 29, 1);
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+#header button:hover {
+    background-color: rgba(137, 51, 17, 0.4);
+}
+
+/* Форма поиска */
+#form input {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    width: 400px;
+    outline: none;
+}
+
+#searchBtn {
+    background-color: #FFD700;
+    color: black;
+    border-radius: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+#searchBtn:hover {
+    background-color: #FFC107;
+}
+
+/* Карточки */
+#cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Главное изображение */
+#divImg {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 90%;
+}
+
+#divImg img {
+    width: 50%;
+    border-radius: 10px;
+}
+
+/* Категории */
+#cotegories {
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 90%;
+    /* margin: 0 auto; */
+}
+
+#cotegories div {
+    width: 50%;
+    text-align: center;
+}
+
+#cotegories img {
+    width: 70%;
+    border-radius: 5px;
+}
+
+#categories div, #products div {
+    background-color: rgba(82, 82, 82, 0.3);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease;
+}
+
+#categories div:hover, #products div:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Продукты */
+#products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#products div {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px;
+}
+
+#products img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Комментарии */
+#comments {
+    margin-top: 30px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Форма для комментариев */
+#commentForm {
+    margin: 30px;
+}
+
+#commentForm input {
+    padding: 8px;
+    width: 70%;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#commentForm button {
+    padding: 5px;
+    outline: none;
+    border-radius: 20px;
+    border: none;
+    background-color: #835649a1;
+    cursor: pointer;
+}
+
+#commentForm button:hover {
+    background-color: #51d5246f;
+}
+
+/* Футер */
+#footer {
+    width: 100%;
+    background-color: rgba(85, 51, 0, 0.423);
+    color: rgb(99, 41, 2);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Кнопка добавления в корзину */
+.addToCart {
+    display: flex;
+    justify-content: end;
+}
+
+/* Форма регистрации */
+.signup-container {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.signup-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.signup-container button {
+    width: 100%;
+    background: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signup-container button:hover {
+    background: #388E3C;
+}
+
+/* Кнопки категорий */
+#wemansBtn, #mensBnt {
+    border: none;
+    background-color: #ccc;
+    border-radius: 25px;
+    padding: 10px 15px;
+    cursor: pointer;
+    width: 70px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 110px;
+}
+
+#wemansBtn:hover, #mensBnt:hover {
+    background-color: #bbb;
+}
+
+/* Контейнер для товаров */
+#womenhtml {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Каждый товар */
+#womenBox {
+    background: white;
+    width: 250px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+#womenBox:hover {
+    transform: scale(1.05);
+}
+
+#womenBox img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+#womenBox h4 {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+#womenBox button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#womenBox button:hover {
+    background-color: #218838;
+}
+
+/* Медиа-запрос для адаптивности */
+@media (max-width: 768px) {
+    #womenhtml {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #womenBox {
+        width: 90%;
+    }
+}
+
+#mansHtml {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Ерлерге арналған тауарлар */
+#mansBox {
+    background: white;
+    width: 250px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+#mansBox:hover {
+    transform: scale(1.05);
+}
+
+#mansBox img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+#mansBox h4 {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+#mansBox button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#mansBox button:hover {
+    background-color: #218838;
+}
+
+/* Медиа-запрос (адаптация мобильді құрылғылар үшін) */
+@media (max-width: 768px) {
+    #mansHtml {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #mansBox {
+        width: 90%;
+    }
+}

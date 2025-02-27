@@ -1,0 +1,115 @@
+[
+    {
+      "id": 1,
+      "name": "Куртка зимняя",
+      "price": 25000,
+      "currency": "KZT",
+      "image": "https://i.pinimg.com/736x/93/07/6b/93076b80b43979e39201c061aaf74c81.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Джинсы мужские",
+      "price": 15000,
+      "currency": "KZT",
+      "image": "https://i.pinimg.com/736x/36/9d/9f/369d9f445aa372a5732429b29789ec72.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Футболка женская",
+      "price": 7000,
+      "currency": "KZT",
+      "image": "https://i.pinimg.com/736x/f9/bd/66/f9bd66182045a481df5c416b8a3579a1.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Кроссовки спортивные",
+      "price": 30000,
+      "currency": "KZT",
+      "image": "https://i.pinimg.com/236x/15/99/c4/1599c4cc035f8524763e65edc10eb5d1.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Платье вечернее",
+      "price": 35000,
+      "currency": "KZT",
+      "image": "https://i.pinimg.com/236x/4e/0c/84/4e0c84f4ba1ce3dbdd3d5f1e699f6a12.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Пуховик мужской",
+      "price": 40000,
+      "currency": "KZT",
+      "image": "https://i.pinimg.com/236x/3e/28/15/3e28151363911c0a1e0e43ec4638dd20.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Рубашка классическая",
+      "price": 12000,
+      "currency": "KZT",
+      "image": "https://i.pinimg.com/736x/35/85/2d/35852d89bd4bd49a2e7cfa3126d4a5dc.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Спортивный костюм",
+      "price": 28000,
+      "currency": "KZT",
+      "image": "https://i.pinimg.com/236x/cc/36/ad/cc36ad69182ab20640cdef254b1e6d10.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Шорты летние",
+      "price": 8000,
+      "currency": "KZT",
+      "image": "https://i.pinimg.com/236x/24/1d/9a/241d9a94fed7e5f55defef2fc401257d.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Свитер теплый",
+      "price": 18000,
+      "currency": "KZT",
+      "image": "https://i.pinimg.com/236x/df/f9/3a/dff93a1cb6ad1f8469b42f94e6940d07.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Кожаная куртка",
+      "price": 50000,
+      "currency": "KZT",
+      "image": "https://i.pinimg.com/236x/0c/76/42/0c7642d2bb1dfa53ee43fd2eb9dc4ee7.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Юбка женская",
+      "price": 14000,
+      "currency": "KZT",
+      "image": "https://i.pinimg.com/736x/b4/da/26/b4da266b3a3cac239af9fc5112c6b9c9.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Ботинки зимние",
+      "price": 45000,
+      "currency": "KZT",
+      "image": "https://i.pinimg.com/236x/af/cf/de/afcfdea531407efb3939ff2a9c679dca.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Пижама хлопковая",
+      "price": 10000,
+      "currency": "KZT",
+      "image": "https://i.pinimg.com/736x/e0/f5/2b/e0f52b082d9fcd1ce90cf3ad34d29733.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Спортивные леггинсы",
+      "price": 12000,
+      "currency": "KZT",
+      "image": "https://i.pinimg.com/736x/31/80/5e/31805e99939ba318038d99ca376092e0.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Толстовка худи",
+      "price": 20000,
+      "currency": "KZT",
+      "image": "https://i.pinimg.com/736x/2e/b0/f3/2eb0f3df3def0d72a175ac69d507757e.jpg"
+    }
+  ]
+  
